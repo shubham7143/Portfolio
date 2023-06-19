@@ -1,0 +1,254 @@
+* {
+    font-family: 'handwriting';
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .job {
+        display: block;
+        color:rgb(86, 85, 85);
+    }
+
+    .about {
+        background: linear-gradient(to bottom, #FFFFFF 35%, #E6DACE 35%);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+        background-color: #F4ECE6;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.9);
+    }
+
+    #dp {
+        position: relative;
+        display: block;
+        width: 45%;
+        border-radius: 100%;
+        margin: 10px 0px 0 0;
+    }
+
+    .info-text {
+        text-align: center;
+        line-height: 25px;
+        margin: 20px 0px;
+    }
+
+    .hor-rule {
+        border: 1px solid blue;
+    }
+
+    .foot {
+        background-color: #FFFFFF;
+        height: 7%;
+        width: 100%;
+        text-align: center;
+        padding: 2% 5% 2% 5%;
+    }
+
+    .social-handle {
+        color: black;
+        text-decoration: none;
+        margin: 4%;
+    }
+
+    .social-handle:hover {
+        color: black;
+        cursor: pointer;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .btn-primary {
+        margin: 20px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0 20px 0;
+    }
+
+    .mail,
+    .follow {
+        text-align: center;
+        width: 27%;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 2%;
+    }
+
+    .fa-2xs {
+        height: 90%;
+        margin-right: 2%;
+        margin-left: 5%;
+        color: #0D6EFD;
+        border-radius: 0;
+    }
+
+    .job {
+        color: grey;
+        font-size: 60%;
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        right: 20px;
+    }
+
+    .about {
+        background: linear-gradient(to left, #FFFFFF 65%, #E6DACE 35%);
+        border: 2px solid white;
+    }
+
+    .container {
+        height: 35rem;
+        width: 60%;
+        margin: 10% auto 10%;
+        display: flex;
+    }
+
+    .picture {
+        position: relative;
+        background-color: #F4ECE6;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.9);
+    }
+
+    .info {
+        width: 55%;
+        padding: 3%;
+    }
+
+    #dp {
+        border-radius: 100%;
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        top: 8%;
+    }
+
+    .info-text {
+        font-size: 200%;
+        text-align: center;
+        margin-top: 10%;
+        position: absolute;
+        top: 40%;
+    }
+
+    #role {
+        font-size: 20px;
+        font-weight: normal;
+        color: rgb(86, 85, 85);
+    }
+
+    .hor-rule {
+        border: 1px solid blue;
+    }
+
+    .foot {
+        background-color: #FFFFFF;
+        position: absolute;
+        bottom: 0;
+        height: 7%;
+        width: 100%;
+        text-align: center;
+        padding: 2% 5% 2% 5%;
+    }
+
+    .social-handle {
+        color: black;
+        text-decoration: none;
+        margin: 4%;
+    }
+
+    .social-handle:hover {
+        color: black;
+        cursor: pointer;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    .btn {
+        margin: 1rem 1rem 1.5rem 0rem;
+        border-radius: 30px;
+    }
+
+    .btn-primary:hover {
+        color: black;
+        border: 1px solid #0D6EFD;
+        background-color: #FFFFFF;
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #0D6EFD;
+        border: 1px solid #0D6EFD;
+        color: white;
+    }
+
+    #footer {
+        display: flex;
+    }
+
+    #copyright {
+        padding: 10px 2px 1rem 2px;
+        margin: 1% 0 1.5rem 4px;
+    }
+
+    .mail {
+        position: absolute;
+        right: 10%;
+        
+        text-align: center;
+        padding: 2px 2px 5px 2px;
+    }
+
+    .follow {
+        position: absolute;
+        right: 1%;
+        padding: 2px 2px 5px 2px;
+        width: 8%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    #navbarSupportedContent {
+        position: relative;
+        margin: 20px;
+    }
+}

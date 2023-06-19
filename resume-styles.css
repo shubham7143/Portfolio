@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: auto;
+    width: 50%;
+}
+
+.res {
+    color: black;
+}
+
+.download-button {
+    color: white;
+    align-items: center;
+    float: right;
+    margin: 1.7rem 0 0 0;
+    display: inline;
+}
+
+.download-button:hover {
+    color: black;
+    background-color: transparent;
+}
+
+.resume {
+    background-color: #e6dace;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    float: left;
+    display: inline;
+    margin: 1.3rem 0 0 2px;
+}
+
+.card {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0;
+}
+
+.skill {
+    margin: 0 0 0 2%;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgb(175, 174, 174);
+    border: 2px solid rgb(92, 91, 91);
+    color:rgb(92, 91, 91);
+    cursor: pointer;
+}
+
+@media (max-width:611px) {
+    *{
+        word-wrap: break-word;
+    }
+
+    .download-button {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+    .res {
+        margin: auto;
+    }
+
+    .btn-outline-secondary {
+        font-size: 0.7rem;
+        /* width: 10%; */
+        height: 10%;
+    }
+
+    .card-body {
+        text-align: left;
+    }
+
+    .h5 {
+        font-weight: none;
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+}
+

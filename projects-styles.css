@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pro {
+    color: black;
+}
+
+.projects {
+    background-color: #e6dace;
+    height: fit-content;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    margin-top: 2%;
+}
+
+.text {
+    width: 45%;
+    text-align: center;
+}
